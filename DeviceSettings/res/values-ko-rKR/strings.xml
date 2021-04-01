@@ -74,4 +74,23 @@
     <string name="preset_extreme_amoled">진한 아몰레드 색감</string>
     <string name="preset_warm_amoled">따뜻한 아몰레드 색감</string>
     <string name="preset_hybrid_mamba">하이브리드 맘바</string>
+    
+    <!-- menu -->
+    <string name="kcal_presets">@string/presets_dialog_title</string>
+    <string name="kcal_reset">재설정</string>
+
+    <!-- CustomSeekBarPreference -->
+    <string name="edit_value">새 값 선택</string>
+    <string name="default_value">기본값</string>
+    <string name="edit_hint">%1$d - %2$d 사이의 값</string>
+
+    <!-- FPS Info -->
+    <string name="fps_info_title">FPS 오버레이</string>
+    <string name="fps_info_summary">현재 FPS를 나타내는 오버레이를 표시합니다.</string>
+    
+    <!-- Audio -->
+    <string name="audio_title">Pengeras suara</string>
+    <string name="headphone_gain">헤드폰 게인</string>
+    <string name="mic_gain">마이크 게인</string>
+
 </resources>
