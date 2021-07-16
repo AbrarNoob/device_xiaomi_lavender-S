@@ -384,6 +384,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_lavender
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
