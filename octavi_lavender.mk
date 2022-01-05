@@ -17,6 +17,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Octavi-stuff
 OCTAVI_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
