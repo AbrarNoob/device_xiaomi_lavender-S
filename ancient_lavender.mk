@@ -17,6 +17,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Ancient
 ANCIENT_OFFICIAL=true
+FORCE_LAWNCHAIR := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -33,6 +34,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
     PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V11.0.5.0.PFGMIXM release-keys"
+    PRIVATE_BUILD_DESC="coral-user 12 SQ1A.211205.008 7888514 release-keys"
 
-BUILD_FINGERPRINT :="google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
+BUILD_FINGERPRINT :="google/coral/coral:12/SQ1A.211205.008/7888514:user/release-keys"
