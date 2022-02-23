@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_lavender.mk
+    $(LOCAL_DIR)/xdroid_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_lavender-user \
-    ancient_lavender-userdebug \
-    ancient_lavender-eng
+    xdroid_lavender-user \
+    xdroid_lavender-userdebug \
+    xdroid_lavender-eng
