@@ -116,8 +116,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.imglib.usefdlite=1 \
     persist.vendor.camera.expose.aux=1 \
     persist.vendor.camera.awb.sync=2 \
-    persist.sys.camera.camera2=true \
-    vendor.video.disable.ubwc=1   
+    persist.sys.camera.camera2=true 
+
+# CNE and DPM
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.cne.feature=1 \
+    persist.vendor.dpm.feature=1
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -235,6 +239,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Time
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true
+
+# WFD
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.debug.wfd.enable=1 \
+    persist.sys.wfd.virtual=0 \
+    vendor.video.disable.ubwc=1 \
+    video.disable.ubwc=1
 
 # disable PQ feature by default
 PRODUCT_PROPERTY_OVERRIDES += \
