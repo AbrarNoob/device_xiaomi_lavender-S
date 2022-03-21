@@ -9,14 +9,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common OctaviOS stuff
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+# Inherit some common PalladiumOS stuff
+$(call inherit-product, vendor/palladium/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
-# Octavi-stuff
-OCTAVI_BUILD_TYPE := OFFICIAL
+# Misc-stuff
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.palladium.maintainer=ABRAR
+
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from lavender device
@@ -24,7 +26,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := octavi_lavender
+PRODUCT_NAME := palladium_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7

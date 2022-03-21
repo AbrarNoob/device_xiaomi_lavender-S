@@ -11,9 +11,6 @@ ro.com.google.ime.kb_pad_land_l=14
 ro.com.google.ime.kb_pad_land_r=14
 ro.com.google.ime.kb_pad_port_b=1
 
-# Maintainer
-ro.octavi.maintainer= 𝘼 𝘽 𝙍 𝘼 𝙍
-ro.octavi.display.pid=1451367
 
 #Dex
 dalvik.vm.dex2oat64.enabled=true

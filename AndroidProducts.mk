@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_lavender.mk
+    $(LOCAL_DIR)/palladium_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_lavender-user \
-    octavi_lavender-userdebug \
-    octavi_lavender-eng
+    palladium_lavender-user \
+    palladium_lavender-userdebug \
+    palladium_lavender-eng
